@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+}
+.nav-style-2{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.button-style-1{
+    border: none;
+    background-color: #23a6f0;
+    padding: 15px 10px;
+    border-radius: 15px;
+    color: white;
+}
+.nav-style-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.header-style{
+    background-image: url(./image/background.png);
+} .hero-1{
+    color: white; font-weight:bold; text-align: center; font-size: 56px;margin-top: 80px; line-height: 60px;"
+}
+.hero-2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.button-2{
+    background-color: #23a6f0;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 35px;
+    color: white;
+}
+.button-3{
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 20px 35px;
+    color: white;
+}
+.two-button{
+    display: flex;
+    align-items: center;
+}
+.bac-color{
+    background-color: #fafafa;
+}
+.box-1{
+    background-color: #ffffff;
+    height: 201px;
+    width: 326px;
+    box-shadow: #b4b2b2 20px 10px 15px;
+}
+.box-2{
+    background-color: #23a6f0;
+    height: 201px;
+    width: 326px;
+    box-shadow: #b4b2b2 20px 10px 15px;
+}
+.box-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -120px;
+}
+.content-item{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 80px;
+    margin-bottom:80px ;
+}
+.review{
+    background-color: #fafafa;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 295px;
+    height: 376px;
+}
+.review-back{
+    background-color: #fafafa;
+}
+.review-style{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 50px;
+    padding-bottom: 220px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.gradient{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 220px;
+}
+.gardient-bac{
+    background: linear-gradient(to bottom, #243f88 0%, #cf1689 100%);
+    margin-left: 100px;
+   margin-right: 100px;
+}
+.cart-style{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 50px; 
+    margin: 30px;
+    height: 665px;
+    width: 327px;
+    border: 1px solid whitesmoke;
+}
+.cart-section{
+display: flex;
+align-items: center;
+}
+.last-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.last-bac{
+    background-color: #252b42;
+    height: 600px;
+
+}
+/* Book Appointment */
+.form{
+    height: 50px;
+     width: 510px; 
+     font-size: 20px;
+     background-color: #cba6a6;
+     border: none;
+      border-radius: 10px;
+      padding: 15px 20px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.appointment{
+    display: flex;
+    gap: 25PX;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -270px;
+    
+}
+.bac-color{
+    background-color: #7aacac;
+}
+/* footrer-section */
+.footer-section{
+    display: flex;
+    padding: 20px;
+   padding-right: 70px;
+    justify-content: space-around;
+}
+/* footer-last */
+.footer-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dfc8c8;
+    padding:20px 10px 30px 10px ;
+}
